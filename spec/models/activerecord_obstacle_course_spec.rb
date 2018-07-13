@@ -33,7 +33,7 @@ describe 'ActiveRecord Obstacle Course' do
   let!(:order_15) { Order.create(amount: 1000, items: [item_1, item_4, item_5, item_7], user: user_3) }
 
 
-  ### Here are the docs associated with this lesson: http://guides.rubyonrails.org/active_record_querying.html
+  # Here are the docs associated with this lesson: http://guides.rubyonrails.org/active_record_querying.html
 
   it 'finds orders by amount' do
     # ----------------------- Using Ruby -------------------------
